@@ -1,0 +1,12 @@
+[package]
+name = "memtarfs"
+version = "0.1.0"
+authors = ["Nic Ferrier <nic@ferrier.me.uk>"]
+edition = "2018"
+
+[dependencies]
+fuse = "0.3"
+libc = "0.2"
+env_logger = "0.6.1"
+log = "0.4.6"
+thread-scoped = "1.0.2"
